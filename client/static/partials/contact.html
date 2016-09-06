@@ -1,0 +1,85 @@
+<script type="text/javascript">
+  $(document).ready(function(){
+        $('.parallax').parallax();
+      });
+</script>
+<div class="parallax-container">
+  <div class="parallax" id="companyNameParralax"><center><h1 id="companyName" class="brand-logo center">Chef Edgar</h1></center></div>
+</div>
+<nav>
+   <div class="nav-wrapper" id="menuNav">
+     <!-- <a href="#!" class="brand-logo center">Logo</a> -->
+     <ul class="brand-logo center" id="menuList">
+       <li><a href="/">About</a></li>
+       <li><a href="#/chef">Chef</a></li>
+       <li><a href="#/menu">Menu</a></li>
+       <li><a href="#/gallery">Gallery</a></li>
+       <li><a href="#/press">Press</a></li>
+       <li class="active"><a href="#/contact">Contact</a></li>
+     </ul>
+   </div>
+ </nav>
+ <div class="parallax-container" id="foodContainer">
+   <div class="parallax"><img src="/static/media/greens.jpg"  class="responsive-image" id="foodPic" /></div>
+ </div>
+ <div class="parallax-container" id="contactParralax">
+   <div class="parallax"></div>
+   <div id="aboutReserveContact" class="pull-left">
+     <h3>Contact</h3>
+     <p id="restaurantInfoContact">
+       575 Mission St.</br>
+       San Francisco, CA 95118</br></br>
+
+       Open Evenings 5:00pm - 10:00pm</br>
+       Last seating at 9:30pm</br>
+       Call or book for reservation</br></br>
+
+       Phone: (555)555-5555</br>
+       Fax: (555)555- 5555</br>
+       Email: someemail@email.com
+     </p></br>
+     <center><a class="waves-effect waves-light btn-large" id="reserveButton">Make Reservation</a></center>
+   </div>
+   <div class="row" id="contactForm" class="pull-right">
+    <form class="col s10">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Comment</label>
+        </div>
+      </div>
+      <center><a class="waves-effect waves-light btn-large" id="reserveButton">Send Message</a></center>
+    </form>
+  </div>
+   <!-- <div id="aboutReserve" class="pull-right">
+     <p id="restaurantInfo">
+       575 Mission St.</br>
+       San Francisco, CA 95118</br></br>
+
+       Open Evenings 5:00pm - 10:00pm</br>
+       Last seating at 9:30pm</br>
+       Call or book for reservation</br></br>
+
+       Phone: (555)555-5555</br>
+       Fax: (555)555- 5555</br>
+       Email: someemail@email.com
+     </p></br>
+     <center><a class="waves-effect waves-light btn-large" id="reserveButton">Make Reservation</a></center>
+   </div> -->
+ </div>

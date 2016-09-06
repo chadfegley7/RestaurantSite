@@ -1,0 +1,79 @@
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('.parallax').parallax();
+  });
+  $(document).ready(function(){
+      $('.slider').slider({full_width: false});
+  });
+</script>
+<div class="parallax-container">
+  <div class="parallax" id="companyNameParralax"><center><h1 id="companyName" class="brand-logo center">Chef Edgar</h1></center></div>
+</div>
+<nav>
+   <div class="nav-wrapper" id="menuNav">
+     <!-- <a href="#!" class="brand-logo center">Logo</a> -->
+     <ul class="brand-logo center" id="menuList">
+       <li><a href="/">About</a></li>
+       <li><a href="#/chef">Chef</a></li>
+       <li><a href="#/menu">Menu</a></li>
+       <li class="active"><a href="#/gallery">Gallery</a></li>
+       <li><a href="#/press">Press</a></li>
+       <li><a href="#/contact">Contact</a></li>
+     </ul>
+   </div>
+ </nav>
+ <div class="parallax-container" id="foodContainer">
+   <div class="parallax"><img src="/static/media/crab.jpg"  class="responsive-image" id="foodPic" /></div>
+ </div>
+ <div class="parallax-container" id="galleryParralax">
+   <div id="galleryText" class="center">
+     <h3 id="galleryName">Edgar's Restaurant<br /> Photo Gallery</h3><br />
+     <div class="slider" id="sliderGallery">
+       <ul class="slides">
+         <li>
+           <img src="/static/media/crab.jpg"> <!-- random image -->
+           <div class="caption left-align" id="pictureOneCaption">
+             <h3>Lobster Rolls</h3>
+             <h5>Chef Edgar's Classic Lobster Rolls</h5>
+           </div>
+         </li>
+         <li>
+           <img src="/static/media/scallops.jpg"> <!-- random image -->
+           <div class="caption left-align" id="pictureTwoCaption">
+             <h3>Bayani Scallop</h3>
+             <h5>U10 Scallop - Artichoke - Brussel Sprouts</h5>
+           </div>
+         </li>
+         <li>
+           <img src="/static/media/cubedFood2.jpg"> <!-- random image -->
+           <div class="caption left-align" id="pictureThreeCaption">
+             <h3>Taste of the Sea</h3>
+             <h5>Ahi - Salmon - Yellowtail - Tobiko</h5>
+           </div>
+         </li>
+         <li>
+           <img src="/static/media/greens.jpg"> <!-- random image -->
+           <div class="caption left-align" id="pictureFourCaption">
+             <h3>Garden of Eden</h3>
+             <h5>Peach - Watercrest - Fancy Pepper</h5>
+           </div>
+         </li>
+       </ul>
+     </div>
+   </div>
+   <!-- <div id="aboutReserve" class="pull-right">
+     <p id="restaurantInfo">
+       575 Mission St.</br>
+       San Francisco, CA 95118</br></br>
+
+       Open Evenings 5:00pm - 10:00pm</br>
+       Last seating at 9:30pm</br>
+       Call or book for reservation</br></br>
+
+       Phone: (555)555-5555</br>
+       Fax: (555)555- 5555</br>
+       Email: someemail@email.com
+     </p></br>
+     <center><a class="waves-effect waves-light btn-large" id="reserveButton">Make Reservation</a></center>
+   </div> -->
+ </div>

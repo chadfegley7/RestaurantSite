@@ -1,0 +1,202 @@
+#companyNameParralax{
+  height: 400px;
+  width: 100%;
+  background-color: #A5231F;
+}
+#companyName{
+  display: inline-block;
+  font-family: chalkduster;
+  font-size: 65px;
+  color: #E1AF49;
+  vertical-align: middle;
+  margin-top: 150px;
+}
+#foodContainer{
+  height: 600px;
+}
+
+/* Menu Navigation */
+#menuNav{
+  margin-top: -100px;
+  background-color: #E1AF49;
+  color: #A5231F;
+}
+/* Food Parralax */
+
+#foodPic{
+  height: 800px;
+  width: 100%;
+}
+
+/* About Parralax */
+
+#aboutParralax{
+  height: 550px;
+  background-color: #A5231F;
+}
+#aboutText{
+  display: inline-block;
+  font-family: chalkduster;
+  color: #E1AF49;
+  height: 400px;
+  width: 800px;
+  margin-left: 50px;
+  margin-top: 25px;
+  padding: 15px 15px 15px 15px;
+}
+#aboutReserve{
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  font-family: chalkduster;
+  color: #E1AF49;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+#aboutParagraph{
+  font-family: chalkduster;
+  color: #E1AF49;
+  text-indent: 50px;
+}
+#restaurantInfo{
+  margin-top: 100px;
+}
+#reserveButton{
+  border-radius: 25px;
+  background-color: #E1AF49;
+}
+
+/* Chef Parralax */
+
+#chefParralax{
+  height: 650px;
+  width: 100%;
+  background-color: #A5231F;
+  color: #E1AF49;
+
+}
+#chefText{
+  display: block;
+  height: 700px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  padding: 15px 15px 15px 15px;
+}
+
+#edgarName{
+  font-family: chalkduster;
+}
+
+#chefParagraph{
+  color: #E1AF49;
+  font-family: chalkduster;
+}
+
+/* Menu Parralax */
+
+#menuParralax{
+  height: 1500px;
+  background-color: #A5231F;
+  color: #E1AF49;
+}
+#menu{
+  font-family: chalkduster;
+  font-size: 75px;
+}
+.foodCategory{
+  font-size: 35px;
+  font-family: chalkduster;
+}
+.entree{
+  font-family: chalkduster;
+  font-size: 25px;
+}
+.ingredients{
+  font-family: chalkduster;
+  font-size: 15px;
+}
+
+/* Contact Parralax */
+
+#contactParralax{
+  height: 500px;
+  background-color: #A5231F;
+}
+#aboutReserveContact{
+  margin-left: 50px;
+  width: 250px;
+  height: 450px;
+  display: inline-block;
+  color: #E1AF49;
+}
+#restaurantInfoContact{
+  margin: 50px 15px 15px 15px;
+}
+#aboutReserveContact h3{
+  border-bottom: 5px solid #E1AF49;
+  border-radius: 5px;
+}
+#contactForm{
+  margin-top: 15px;
+  color: #E1AF49;
+  height: 400px;
+  width: 600px;
+  margin-right: 50px;
+}
+
+/* Gallery Parralax */
+
+#galleryParralax{
+  height: 800px;
+  background-color: #A5231F;
+}
+
+#galleryText{
+  display: block;
+  height: 700px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  padding: 15px 15px 15px 15px;
+}
+
+#galleryName{
+  font-family: chalkduster;
+  color: #E1AF49;
+}
+
+#sliderGallery{
+  margin-top: 100px;
+  border: 2px solid #E1AF49;
+  background-color: #E1AF49;
+}
+
+#galleryPicOne{
+  background-color: green;
+  height: 300px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+#pictureOneCaption{
+  margin-top: 200px;
+  font-family: chalkduster;
+}
+#pictureTwoCaption{
+  margin-top: 200px;
+  color: black;
+  font-family: chalkduster;
+}
+#pictureThreeCaption{
+  margin-top: 200px;
+  color: green;
+  font-family: chalkduster;
+}
+#pictureFourCaption{
+  color: purple;
+  font-family: chalkduster;
+}
